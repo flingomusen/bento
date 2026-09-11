@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'flingo',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -59,72 +59,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
-		},
-		{
-			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
-		},
-		{
-			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
-		},
-		{
-			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
-		},
-		{
-			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
-		},
-	],
-
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			link: 'https://youtube.com.com',
 		},
 	],
 
@@ -138,6 +75,7 @@ const CONFIG = {
 			icon: 'music',
 			id: '1',
 			links: [
+				/*
 				{
 					name: 'Inspirational',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
@@ -154,12 +92,14 @@ const CONFIG = {
 					name: 'Rock',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
+				*/
 			],
-		},
+		}, 
 		{
 			icon: 'coffee',
 			id: '2',
 			links: [
+				/*
 				{
 					name: 'Linkedin',
 					link: 'https://www.linkedin.com',
@@ -176,8 +116,9 @@ const CONFIG = {
 					name: 'Slack',
 					link: 'https://www.slack.com',
 				},
+				*/
 			],
-		},
+		}, 
 	],
 
 	// Second Links Container
@@ -186,6 +127,7 @@ const CONFIG = {
 			icon: 'binary',
 			id: '1',
 			links: [
+				/*
 				{
 					name: 'Spotify',
 					link: 'https://www.spotify.com',
@@ -202,12 +144,14 @@ const CONFIG = {
 					name: 'Pocket',
 					link: 'https://www.pocket.com',
 				},
+				*/
 			],
 		},
 		{
 			icon: 'github',
 			id: '2',
 			links: [
+				/*
 				{
 					name: 'Front',
 					link: 'https://www.reddit.com/r/Frontend/',
@@ -224,7 +168,8 @@ const CONFIG = {
 					name: 'Repos',
 					link: 'https://github.com/migueravila',
 				},
-			],
+				*/
+			], 
 		},
 	],
 };
